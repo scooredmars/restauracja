@@ -1,0 +1,29 @@
+{% load static %}
+
+{% block navbar %}
+
+<div class="page-header">
+    <div class="wide column">
+      <h1><a href="/">Restaurant</a></h1>
+    </div>
+    <div class="column">
+    {% if user.is_authenticated %}
+      <div class="account">
+        <p>Witaj {{ user.username }}
+          <button class="ui button">
+          <a href="" >Wyloguj</a>
+          </button>
+        </p>
+      </div>
+    {% else %}
+      <div class="account">
+        <p>Nie jesteś zalogowany!
+        <button class="ui button">
+          <a href="/accounts/login/" >Zaloguj</a>
+        </button>
+        </p>
+      </div>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

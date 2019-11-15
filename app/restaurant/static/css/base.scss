@@ -1,0 +1,19 @@
+@import "const";
+@import "includes/navbar";
+@import "includes/footer";
+
+body {
+    background: $default_background;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.center{
+  margin: auto;
+}

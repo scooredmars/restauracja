@@ -1,0 +1,34 @@
+{% extends "blog/layouts/default.html" %}
+
+{% load static %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+
+  <div class="ui four stackable cards">
+    {% for post in posts %}
+      <div class="card">
+        <div class="content">
+          <div class="header">
+            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+          </div>
+          <div class="meta">
+            <p>Opis:</p>
+          </div>
+          <div class="description">
+            <p>{{ post.text|linebreaksbr }}</p>
+          </div>
+        </div>
+        <div class="extra">
+          <span class="right floated date">
+            <p> <i class="calendar alternate outline icon"></i>{{ post.published_date }}</p>
+          </span>
+          <span class="date">
+            <p>Opublikowano: </p>
+          </span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

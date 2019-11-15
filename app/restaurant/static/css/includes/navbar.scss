@@ -1,0 +1,31 @@
+.page-header {
+  background: $home_header;
+  margin-top: 0;
+  padding: 0px 0px 10px 0px;
+  display: flex;
+
+  h1,
+  h1 a,
+  h1 a:visited,
+  h1 a:active {
+    padding-top: .1em;
+    color: $home_text;
+    font-size: 36pt;
+    text-decoration: none;
+  }
+}
+
+.account {
+  display: flex;
+  padding: inherit;
+  font-size: 2em;
+}
+
+i{
+    color: $home_text;
+    text-decoration: none;
+}
+
+.ui.button{
+  padding: 9px 8px;
+}
