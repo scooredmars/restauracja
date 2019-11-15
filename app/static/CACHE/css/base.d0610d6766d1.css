@@ -1,0 +1,57 @@
+/* line 1, app/restaurant/static/css/includes/navbar.scss */
+.page-header {
+  background: #c25100;
+  margin-top: 0;
+  padding: 0px 0px 10px 0px;
+  display: flex; }
+  /* line 7, app/restaurant/static/css/includes/navbar.scss */
+  .page-header h1,
+  .page-header h1 a,
+  .page-header h1 a:visited,
+  .page-header h1 a:active {
+    padding-top: .1em;
+    color: white;
+    font-size: 36pt;
+    text-decoration: none; }
+
+/* line 18, app/restaurant/static/css/includes/navbar.scss */
+.account {
+  display: flex;
+  padding: inherit;
+  font-size: 2em; }
+
+/* line 24, app/restaurant/static/css/includes/navbar.scss */
+i {
+  color: white;
+  text-decoration: none; }
+
+/* line 29, app/restaurant/static/css/includes/navbar.scss */
+.ui.button {
+  padding: 9px 8px; }
+
+/* line 1, app/restaurant/static/css/includes/footer.scss */
+.column {
+  display: flex;
+  margin: auto;
+  width: fit-content; }
+  /* line 6, app/restaurant/static/css/includes/footer.scss */
+  .column .cont {
+    width: 6.5em;
+    text-align: center;
+    font-size: 1.25em; }
+
+/* line 5, app/restaurant/static/css/base.scss */
+body {
+  background: rgba(190, 190, 190, 0.651);
+  line-height: 1.4; }
+
+/* line 10, app/restaurant/static/css/base.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lobster', cursive; }
+
+/* line 17, app/restaurant/static/css/base.scss */
+.center {
+  margin: auto; }
