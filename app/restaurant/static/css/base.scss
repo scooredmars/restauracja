@@ -1,10 +1,13 @@
 @import "const";
 @import "includes/navbar";
 @import "includes/footer";
+@import "sections/home";
 
 body {
-    background: $default_background;
-    line-height: 1.4;
+  background-image: url(../img/background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  line-height: 1.4;
 }
 
 h1,
