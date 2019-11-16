@@ -2,11 +2,13 @@
 @import "includes/navbar";
 @import "includes/footer";
 @import "sections/home";
+@import "sections/info";
 
 body {
   background-image: url(../img/background.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: cover;
   line-height: 1.4;
 }
 
@@ -17,6 +19,11 @@ h4 {
     font-family: 'Lobster', cursive;
 }
 
-.center{
-  margin: auto;
+.header{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 800;
+  padding-bottom: 1.5em;
+  text-decoration: underline;
 }
+
