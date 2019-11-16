@@ -4,9 +4,13 @@
   width: fit-content;
 
   .cont{
-    width: 6.5em;
+    width: fit-content;
     text-align: center;
     font-size: 1.25em;
+  }
+
+  .cont:first-child{
+    padding-right: .7em;
   }
 }
 

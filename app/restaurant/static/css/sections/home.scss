@@ -3,7 +3,16 @@
   color: white;
   font-size: 2em;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 4em;
   border-bottom: 2px solid white;
   border-radius: 20% 20% 20%;
+
+  .title{
+    width: fit-content;
+    background-color: rgba(253, 233, 207, 0.678);
+    margin: auto;
+    padding: .7em 1em;
+    text-align: center;
+    color: black;
+  }
 }
