@@ -1,5 +1,28 @@
 {% load static %}
 
 {% block navbar %}
-
+<div class="container">
+  <div class="nav">
+    <div class="item">
+      <button class="ui blue tertiary button"><a href="">Home</a> </button>
+    </div>
+    <div class="item">
+      <button class="ui blue tertiary button"><a href="">O nas</a></button>
+    </div>
+    <div class="item">
+      <button class="ui blue tertiary button"><a href="">Galeria</a></button>
+    </div>
+  </div>
+  <div class="logo">
+    <img src="{% static 'img/logo.png' %}">
+  </div>
+  <div class="nav">
+    <div class="item">
+      <button class="ui blue tertiary button"><a href="">Menu</a></button>
+    </div>
+    <div class="item">
+      <button class="ui blue tertiary button"><a href="">Kontakt</a></button>
+    </div>
+  </div>
+</div>
 {% endblock %}
