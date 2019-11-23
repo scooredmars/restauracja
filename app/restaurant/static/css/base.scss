@@ -3,6 +3,7 @@
 @import "includes/footer";
 @import "sections/home";
 @import "sections/info";
+@import "sections/menu-c";
 
 body {
   background-image: url(../img/background.jpg);
@@ -19,11 +20,18 @@ h4 {
     font-family: 'Lobster', cursive;
 }
 
-.header{
+.headers{
   text-align: center;
   font-size: 2em;
   font-weight: 800;
   padding-bottom: 1.5em;
+  padding-top: 1em;
   text-decoration: underline;
+}
+
+.header{
+  text-align: center;
+  font-size: 1.4em !important;
+  padding-bottom: 1.5em;
 }
 
