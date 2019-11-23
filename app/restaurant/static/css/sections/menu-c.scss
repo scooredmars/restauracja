@@ -1,0 +1,45 @@
+#menu-c{
+  background: rgba(0,0,0,.05);
+
+  .ui.cards{
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    z-index: 0;
+
+    .card{
+      box-shadow: none !important;
+      background: rgba(0, 0, 0, 0);
+    }
+  }
+
+  a{
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color: rgba(0,0,0,.85);
+    font-weight: 700;
+    line-height: 5em;
+    height: 90%;
+  }
+
+  a:hover{
+    background: rgba(0, 0, 0, 0.075);
+  }
+
+  .content{
+    border-top: none;
+  }
+
+  img{
+    height: 12em;
+  }
+
+  .ui.card:after, .ui.cards:after{
+    content: none;
+  }
+
+  .square.image{
+    padding-top: 60% !important;
+  }
+}
