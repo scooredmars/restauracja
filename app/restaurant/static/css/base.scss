@@ -7,19 +7,19 @@
 @import "sections/gallery";
 @import "sections/contact";
 
-body {
-  background-image: url(../img/background.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.4;
-}
-
 h1,
 h2,
 h3,
 h4 {
     font-family: 'Lobster', cursive;
+}
+
+.bcg{
+  height: 100%;
+  background-image: url(../img/background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headers{
