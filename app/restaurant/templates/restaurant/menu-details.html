@@ -1,0 +1,42 @@
+{% extends "restaurant/layouts/menu-display.html" %}
+
+{% load static %}
+
+{% block menu-details %}
+
+  <div><img src="{{ active_category.image.url }}" class="bcg"></div>
+
+  <div id="container">
+    <div class="categories">
+      <a href="/">
+        <div class="item">Strona Główna</div>
+      </a>
+      {% for category in categories %}
+        <a href="{{ category.get_absolute_url }}">
+          <div class="item">{{ category.name }}</div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="list-food">
+      {% for entry in entries %}
+        <div class="dish">
+          <div class="left">
+            <div class="name"> {{ entry.dish }} </div>
+            <div class="description"> {{ entry.description }} </div>
+          </div>
+          <div class="right">
+            <div class="prize"> {{ entry.price }} zl</div>
+            <div class="quantity">( {{ entry.size }} g)</div>
+          </div>
+        </div>
+      {% empty %}
+        <div class="no-data">
+          <p>Nie wpisano danych!!</p>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+{% endblock %}

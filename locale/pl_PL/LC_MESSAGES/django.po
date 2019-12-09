@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-09 13:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\app\restaurant\apps.py:7
+msgid "Restaurant"
+msgstr "Restauracja"
+
+#: .\app\restaurant\models.py:12
+msgid "Home thumbnail"
+msgstr "Miniatura strony głównej"
+
+#: .\app\restaurant\models.py:15
+msgid "Menu background"
+msgstr "Tło menu"
+
+#: .\app\restaurant\models.py:17
+msgid "Name"
+msgstr "Nazwa"
+
+#: .\app\restaurant\models.py:26
+msgid "category"
+msgstr "kategoria"
+
+#: .\app\restaurant\models.py:27
+msgid "categories"
+msgstr "kategorie"
+
+#: .\app\restaurant\models.py:34
+msgid "Category"
+msgstr "Kategoria"
+
+#: .\app\restaurant\models.py:37
+msgid "Dish name"
+msgstr "Nazwa dania"
+
+#: .\app\restaurant\models.py:38
+msgid "Ingredients"
+msgstr "Składniki"
+
+#: .\app\restaurant\models.py:46
+msgid "menu"
+msgstr "menu"
+
+#: .\app\restaurant\models.py:47
+msgid "menus"
+msgstr "menu"

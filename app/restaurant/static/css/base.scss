@@ -6,6 +6,8 @@
 @import "sections/menu-c";
 @import "sections/gallery";
 @import "sections/contact";
+@import "sections/menu-d";
+
 
 h1,
 h2,
@@ -14,12 +16,11 @@ h4 {
     font-family: 'Lobster', cursive;
 }
 
-.bcg{
-  height: 100%;
-  background-image: url(../img/background.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+.no-data{
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10em;
+  font-weight: bold;
 }
 
 .headers{
