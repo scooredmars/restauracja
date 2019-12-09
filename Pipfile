@@ -6,13 +6,15 @@ name = "pypi"
 [packages]
 django = ">=2.2,<2.3"
 
+pillow = ">=6.2,<7.0"
+django-cleanup = ">=4.0,<4.1"
 django_compressor = ">=2.3,<2.4"
 django-libsass = ">=0.7,<0.8"
 csscompressor = ">=0.9,<1.0"
 
 [dev-packages]
-autopep8 = "*"
 pylint = "*"
+black = "==19.10b0"
 rope = "*"
 
 [requires]
